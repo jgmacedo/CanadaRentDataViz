@@ -1,12 +1,23 @@
-from scraperKijiji import scrape_listings, scrape_multiple_pages
+from scraperKijiji import scrape_multiple_pages, make_csv_file
+from transform_data import clean_and_transform_data_kijiji
 import pandas
 
 if __name__ == '__main__':
-    url = 'https://www.kijiji.ca/b-apartments-condos/greater-vancouver-area/c37l80003?sort=dateDesc'
+    url = (
+        "https://www.kijiji.ca/b-apartments-condos/gta-greater-toronto-area/c37l1700272?sort=dateDesc")
     gecko_path = 'geckodriver'
-    listings = scrape_multiple_pages(url, gecko_path)
 
-    for listing in listings:
-        print(listing)
-    listings = pandas.DataFrame(listings)
-    listings.to_csv('listings.csv', index=False)
+
+    # filename = url.split('/')[-2] + '.csv'
+    # listings = scrape_multiple_pages(url, gecko_path)
+    # make_csv_file(listings, filename)
+    # print("Process Ended")
+
+    new_data = clean_and_transform_data_kijiji("greater-vancouver-area.csv")
+    print(new_data.head())
+    new_data.to_csv("cleaned_gva.csv", index=False)
+
+
+
+
+

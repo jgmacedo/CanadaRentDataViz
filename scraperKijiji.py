@@ -89,3 +89,9 @@ def scrape_multiple_pages(url, gecko_path):
     driver.quit()
 
     return all_listings
+
+
+def make_csv_file(listings, filename):
+    import pandas as pd
+    listings = pd.DataFrame(listings)
+    listings.to_csv(filename, index=False)
