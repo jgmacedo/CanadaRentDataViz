@@ -1,6 +1,6 @@
-from transforming_functions import remove_outliers
-from transforming_functions import turn_price_to_float
-from transforming_functions import turn_string_to_numbers
+from T.transforming_functions import remove_outliers
+from T.transforming_functions import turn_price_to_float
+from T.transforming_functions import turn_string_to_numbers
 import pandas as pd
 import ast
 

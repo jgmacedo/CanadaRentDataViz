@@ -1,6 +1,4 @@
-from scraperKijiji import scrape_multiple_pages, make_csv_file
-from transform_data import clean_and_transform_data_kijiji
-import pandas
+from T.transform_data import clean_and_transform_data_kijiji
 
 if __name__ == '__main__':
     url = (
@@ -13,9 +11,10 @@ if __name__ == '__main__':
     # make_csv_file(listings, filename)
     # print("Process Ended")
 
-    new_data = clean_and_transform_data_kijiji("greater-vancouver-area.csv")
+    new_data = clean_and_transform_data_kijiji("data/gta-greater-toronto-area.csv")
     print(new_data.head())
-    new_data.to_csv("cleaned_gva.csv", index=False)
+    new_data.to_csv("data/cleaned/greater-toronto-area-cleaned.csv", index=False)
+    print("Process Ended")
 
 
 
