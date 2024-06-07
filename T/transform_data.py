@@ -40,5 +40,5 @@ def clean_and_transform_data_kijiji(data):
     numeric_cols = ['price', 'Bedrooms', 'Bathrooms', 'sqft', 'sqm']
 
     # Remove outliers from the dataset
-    data_no_outliers = remove_outliers(data_cleaned, numeric_cols)
-    return data_no_outliers
+    #data_no_outliers = remove_outliers(data_cleaned, numeric_cols)
+    return data_cleaned
