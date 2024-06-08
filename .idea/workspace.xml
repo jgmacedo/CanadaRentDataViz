@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c964c98f-a27b-4c0f-be0a-33d549967120" name="Changes" comment="" />
+    <list default="true" id="c964c98f-a27b-4c0f-be0a-33d549967120" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +43,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.main.executor": "Run",
+    "Python.test_coorelation.executor": "Run",
     "Python.transforming_functions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -109,6 +112,7 @@
       <workItem from="1717709268746" duration="5867000" />
       <workItem from="1717760956228" duration="196000" />
       <workItem from="1717769095333" duration="1247000" />
+      <workItem from="1717854077234" duration="978000" />
     </task>
     <servers />
   </component>
