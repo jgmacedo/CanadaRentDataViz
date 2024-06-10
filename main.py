@@ -11,7 +11,6 @@ if __name__ == '__main__':
     # With this project, I was able to learn a lot about ETL processes and how to scrape data from websites.
     # To show some data, I uploaded a web app to Streamlit so users can see the data in a more interactive way.
 
-
     filename = url.split('/')[-2] + '.csv'
     listings = scrape_multiple_pages(url, gecko_path)
     make_csv_file(listings, filename)
@@ -21,8 +20,3 @@ if __name__ == '__main__':
 
     new_data.to_csv("data/cleaned/greater-vancouver-area-cleaned.csv", index=False)
     print("Process Ended")
-
-
-
-
-
