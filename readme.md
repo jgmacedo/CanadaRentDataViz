@@ -5,6 +5,8 @@
 
 **CanadaRentDataViz** is a data visualization project focused on analyzing rental information in Canada. The goal is to provide detailed insights into the real estate market, allowing users to visualize and interpret data effectively.
 
+To see the project in the web, simply click this link https://canadarentdataviz.streamlit.app/
+
 ## Features
 
 - **Data Scraping**: Collects rental listing information from a specific website.
