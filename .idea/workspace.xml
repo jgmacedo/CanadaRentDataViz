@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c964c98f-a27b-4c0f-be0a-33d549967120" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jere.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ML_models.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gvaWebScraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gvaWebScraper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c964c98f-a27b-4c0f-be0a-33d549967120" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,6 +145,7 @@
       <workItem from="1718105183231" duration="3964000" />
       <workItem from="1718109172481" duration="10981000" />
       <workItem from="1718144950376" duration="2390000" />
+      <workItem from="1718274892894" duration="179000" />
     </task>
     <servers />
   </component>
