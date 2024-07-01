@@ -35,7 +35,7 @@ with vancouver_col:
 
 with toronto_col:
     average_price = data_toronto['price'].mean()
-    st.metric('Average Price in Greater Vancouver Area', f"${average_price:,.2f}")
+    st.metric('Average Price in Greater Toronto Area', f"${average_price:,.2f}")
     st.metric('Number of Listings in Greater Toronto Area', data_toronto.shape[0])
     st.plotly_chart(px.histogram(data_toronto, x='price', title='Price Distribution in Greater Toronto Area', histnorm='density'))
 
